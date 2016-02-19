@@ -1,0 +1,22 @@
+{
+  "name": "autocomplete-pml",
+  "version": "0.0.1",
+  "description": "Autocomplete Provider for Phoenix Modeling Language in Atom",
+  "main": "./lib/main",
+  "keywords": [
+  ],
+  "repository": "https://github.com/wilsonmichaelc/autocomplete-pml",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {
+  }
+}
